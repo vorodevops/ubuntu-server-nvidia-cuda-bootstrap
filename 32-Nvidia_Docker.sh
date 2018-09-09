@@ -10,7 +10,7 @@ sudo apt update
 
 # Actually install Nvida Docker
 
-sudo apt-get install -y nvidia-docker2
+sudo apt install -y nvidia-docker2
 
 sudo addgroup `whoami` docker
 

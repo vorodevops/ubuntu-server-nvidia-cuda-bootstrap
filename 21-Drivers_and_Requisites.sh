@@ -2,12 +2,12 @@
 
 # Build environment
 
-sudo apt-get install linux-headers-$(uname -r)
-sudo apt-get install build-essential
+sudo apt install linux-headers-$(uname -r)
+sudo apt install build-essential
 
 
 # Drivers
 
-sudo apt-get install nvidia-390
-sudo apt-get install nvidia-390-dev
-sudo apt-get install nvidia-compute-utils-390
+sudo apt install nvidia-390
+sudo apt install nvidia-390-dev
+sudo apt install nvidia-compute-utils-390
